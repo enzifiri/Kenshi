@@ -54,7 +54,9 @@ rpc:
 database:
   url: mongodb+srv://<user>:<password>@<url>/?retryWrites=true&w=majority
   name: unchained
-
+peers:
+  max: 16
+  parallel: 8
 > CTRL X Y Enter ile çıkıyoruz.
 
 
